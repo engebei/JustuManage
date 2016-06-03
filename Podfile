@@ -3,7 +3,7 @@ target "JustuManage" do
     
 pod 'AFNetworking'
 pod 'SVProgressHUD'
-pod 'SDWebImage'
 pod 'YYWebImage'
 pod 'IDMPhotoBrowser'
+
 end

@@ -10,10 +10,11 @@
 #import "JTHUD.h"
 #import "AFNetworking.h"
 
+static NSString *baseURL = @"";
 
 @implementation JTNetwork
 
-+ (JTNetwork *)manage
++ (JTNetwork * _Nullable )manage
 {
     static JTNetwork *jtNetwork;
     static dispatch_once_t onceToken;
@@ -45,7 +46,8 @@ failure:(nullable void (^)( NSError  * _Nullable error))failure
     //检测网络
     [self checkNetwork];
     
-    AFHTTPSessionManager *manager = [[AFHTTPSessionManager alloc]initWithBaseURL:[NSURL URLWithString:@"http://121.40.200.66/index.php/Home/"]];
+    //发起请求
+    AFHTTPSessionManager *manager = [[AFHTTPSessionManager alloc]initWithBaseURL:[NSURL URLWithString:baseURL]];
     manager.requestSerializer = [AFHTTPRequestSerializer serializer];
     [manager.requestSerializer setStringEncoding:NSUTF8StringEncoding];
     AFJSONResponseSerializer *serializer = [AFJSONResponseSerializer serializer];

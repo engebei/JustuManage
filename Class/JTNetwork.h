@@ -11,7 +11,7 @@
 
 @interface JTNetwork : NSObject
 
-+ (nullable JTNetwork *)manage;
++ (JTNetwork * _Nullable )manage;
 
 /**
  *  GET请求方法（基于AFNetworking封装）
