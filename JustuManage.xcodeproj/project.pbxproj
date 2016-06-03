@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		761F2D1C201BD40E68D52EC9 /* libPods-JustuManage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0448E518DC1EC3D4B48EB65 /* libPods-JustuManage.a */; };
+		C90A7C321CFFD86100DDC5EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C90A7C311CFFD86100DDC5EF /* main.m */; };
+		C90A7C351CFFD86100DDC5EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C90A7C341CFFD86100DDC5EF /* AppDelegate.m */; };
+		C90A7C381CFFD86100DDC5EF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C90A7C371CFFD86100DDC5EF /* ViewController.m */; };
+		C90A7C3B1CFFD86100DDC5EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C90A7C391CFFD86100DDC5EF /* Main.storyboard */; };
+		C90A7C3D1CFFD86100DDC5EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C90A7C3C1CFFD86100DDC5EF /* Assets.xcassets */; };
+		C90A7C401CFFD86100DDC5EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C90A7C3E1CFFD86100DDC5EF /* LaunchScreen.storyboard */; };
+		C90A7C4A1D00098200DDC5EF /* JTHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C90A7C491D00098200DDC5EF /* JTHUD.m */; };
+		C930AFC31D00191E0074CF64 /* UIImageView+JTWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C930AFC21D00191E0074CF64 /* UIImageView+JTWebImage.m */; };
+		C930AFC81D002B370074CF64 /* 111.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C930AFC71D002B370074CF64 /* 111.jpg */; };
+		C930AFCB1D0119100074CF64 /* UIViewController+JTPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = C930AFCA1D0119100074CF64 /* UIViewController+JTPhotoBrowser.m */; };
+		C930AFCE1D011C1D0074CF64 /* JTNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = C930AFCD1D011C1D0074CF64 /* JTNetwork.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		25B5F2265A47DD18B10C12B0 /* Pods-JustuManage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JustuManage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JustuManage/Pods-JustuManage.debug.xcconfig"; sourceTree = "<group>"; };
+		79A139E5BB91C5C6C563DDDC /* Pods-JustuManage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JustuManage.release.xcconfig"; path = "Pods/Target Support Files/Pods-JustuManage/Pods-JustuManage.release.xcconfig"; sourceTree = "<group>"; };
+		C90A7C2D1CFFD86100DDC5EF /* JustuManage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JustuManage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C90A7C311CFFD86100DDC5EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C90A7C331CFFD86100DDC5EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C90A7C341CFFD86100DDC5EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C90A7C361CFFD86100DDC5EF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C90A7C371CFFD86100DDC5EF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C90A7C3A1CFFD86100DDC5EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C90A7C3C1CFFD86100DDC5EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C90A7C3F1CFFD86100DDC5EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C90A7C411CFFD86100DDC5EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C90A7C481D00098200DDC5EF /* JTHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTHUD.h; sourceTree = "<group>"; };
+		C90A7C491D00098200DDC5EF /* JTHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTHUD.m; sourceTree = "<group>"; };
+		C930AFC11D00191E0074CF64 /* UIImageView+JTWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+JTWebImage.h"; sourceTree = "<group>"; };
+		C930AFC21D00191E0074CF64 /* UIImageView+JTWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+JTWebImage.m"; sourceTree = "<group>"; };
+		C930AFC71D002B370074CF64 /* 111.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 111.jpg; sourceTree = "<group>"; };
+		C930AFC91D0119100074CF64 /* UIViewController+JTPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JTPhotoBrowser.h"; sourceTree = "<group>"; };
+		C930AFCA1D0119100074CF64 /* UIViewController+JTPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JTPhotoBrowser.m"; sourceTree = "<group>"; };
+		C930AFCC1D011C1D0074CF64 /* JTNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTNetwork.h; sourceTree = "<group>"; };
+		C930AFCD1D011C1D0074CF64 /* JTNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTNetwork.m; sourceTree = "<group>"; };
+		E0448E518DC1EC3D4B48EB65 /* libPods-JustuManage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JustuManage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C90A7C2A1CFFD86100DDC5EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761F2D1C201BD40E68D52EC9 /* libPods-JustuManage.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D509658FD93002E0A30A14F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0448E518DC1EC3D4B48EB65 /* libPods-JustuManage.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C90A7C241CFFD86100DDC5EF = {
+			isa = PBXGroup;
+			children = (
+				C930AFC71D002B370074CF64 /* 111.jpg */,
+				C90A7C471D00066B00DDC5EF /* Class */,
+				C90A7C2F1CFFD86100DDC5EF /* JustuManage */,
+				C90A7C2E1CFFD86100DDC5EF /* Products */,
+				DF8A6BEF48CADD017B430F28 /* Pods */,
+				8D509658FD93002E0A30A14F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C90A7C2E1CFFD86100DDC5EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C90A7C2D1CFFD86100DDC5EF /* JustuManage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C90A7C2F1CFFD86100DDC5EF /* JustuManage */ = {
+			isa = PBXGroup;
+			children = (
+				C90A7C331CFFD86100DDC5EF /* AppDelegate.h */,
+				C90A7C341CFFD86100DDC5EF /* AppDelegate.m */,
+				C90A7C361CFFD86100DDC5EF /* ViewController.h */,
+				C90A7C371CFFD86100DDC5EF /* ViewController.m */,
+				C90A7C391CFFD86100DDC5EF /* Main.storyboard */,
+				C90A7C3C1CFFD86100DDC5EF /* Assets.xcassets */,
+				C90A7C3E1CFFD86100DDC5EF /* LaunchScreen.storyboard */,
+				C90A7C411CFFD86100DDC5EF /* Info.plist */,
+				C90A7C301CFFD86100DDC5EF /* Supporting Files */,
+			);
+			path = JustuManage;
+			sourceTree = "<group>";
+		};
+		C90A7C301CFFD86100DDC5EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C90A7C311CFFD86100DDC5EF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C90A7C471D00066B00DDC5EF /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				C90A7C481D00098200DDC5EF /* JTHUD.h */,
+				C90A7C491D00098200DDC5EF /* JTHUD.m */,
+				C930AFCC1D011C1D0074CF64 /* JTNetwork.h */,
+				C930AFCD1D011C1D0074CF64 /* JTNetwork.m */,
+				C930AFC11D00191E0074CF64 /* UIImageView+JTWebImage.h */,
+				C930AFC21D00191E0074CF64 /* UIImageView+JTWebImage.m */,
+				C930AFC91D0119100074CF64 /* UIViewController+JTPhotoBrowser.h */,
+				C930AFCA1D0119100074CF64 /* UIViewController+JTPhotoBrowser.m */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		DF8A6BEF48CADD017B430F28 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25B5F2265A47DD18B10C12B0 /* Pods-JustuManage.debug.xcconfig */,
+				79A139E5BB91C5C6C563DDDC /* Pods-JustuManage.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C90A7C2C1CFFD86100DDC5EF /* JustuManage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C90A7C441CFFD86100DDC5EF /* Build configuration list for PBXNativeTarget "JustuManage" */;
+			buildPhases = (
+				1C4E8E65E649999DD57D8843 /* 📦 Check Pods Manifest.lock */,
+				C90A7C291CFFD86100DDC5EF /* Sources */,
+				C90A7C2A1CFFD86100DDC5EF /* Frameworks */,
+				C90A7C2B1CFFD86100DDC5EF /* Resources */,
+				9162CAF68C691C12F98521A1 /* 📦 Embed Pods Frameworks */,
+				1C0A6A2FC724067E152EFDE6 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JustuManage;
+			productName = JustuManage;
+			productReference = C90A7C2D1CFFD86100DDC5EF /* JustuManage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C90A7C251CFFD86100DDC5EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = zhubo;
+				TargetAttributes = {
+					C90A7C2C1CFFD86100DDC5EF = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C90A7C281CFFD86100DDC5EF /* Build configuration list for PBXProject "JustuManage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C90A7C241CFFD86100DDC5EF;
+			productRefGroup = C90A7C2E1CFFD86100DDC5EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C90A7C2C1CFFD86100DDC5EF /* JustuManage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C90A7C2B1CFFD86100DDC5EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C90A7C401CFFD86100DDC5EF /* LaunchScreen.storyboard in Resources */,
+				C930AFC81D002B370074CF64 /* 111.jpg in Resources */,
+				C90A7C3D1CFFD86100DDC5EF /* Assets.xcassets in Resources */,
+				C90A7C3B1CFFD86100DDC5EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C0A6A2FC724067E152EFDE6 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JustuManage/Pods-JustuManage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1C4E8E65E649999DD57D8843 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9162CAF68C691C12F98521A1 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JustuManage/Pods-JustuManage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C90A7C291CFFD86100DDC5EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C90A7C381CFFD86100DDC5EF /* ViewController.m in Sources */,
+				C90A7C4A1D00098200DDC5EF /* JTHUD.m in Sources */,
+				C930AFCE1D011C1D0074CF64 /* JTNetwork.m in Sources */,
+				C90A7C351CFFD86100DDC5EF /* AppDelegate.m in Sources */,
+				C930AFCB1D0119100074CF64 /* UIViewController+JTPhotoBrowser.m in Sources */,
+				C90A7C321CFFD86100DDC5EF /* main.m in Sources */,
+				C930AFC31D00191E0074CF64 /* UIImageView+JTWebImage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C90A7C391CFFD86100DDC5EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C90A7C3A1CFFD86100DDC5EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C90A7C3E1CFFD86100DDC5EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C90A7C3F1CFFD86100DDC5EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C90A7C421CFFD86100DDC5EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C90A7C431CFFD86100DDC5EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C90A7C451CFFD86100DDC5EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25B5F2265A47DD18B10C12B0 /* Pods-JustuManage.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JustuManage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhubo.JustuManage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C90A7C461CFFD86100DDC5EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79A139E5BB91C5C6C563DDDC /* Pods-JustuManage.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JustuManage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhubo.JustuManage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C90A7C281CFFD86100DDC5EF /* Build configuration list for PBXProject "JustuManage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C90A7C421CFFD86100DDC5EF /* Debug */,
+				C90A7C431CFFD86100DDC5EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C90A7C441CFFD86100DDC5EF /* Build configuration list for PBXNativeTarget "JustuManage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C90A7C451CFFD86100DDC5EF /* Debug */,
+				C90A7C461CFFD86100DDC5EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C90A7C251CFFD86100DDC5EF /* Project object */;
+}
